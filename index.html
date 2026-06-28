@@ -99,9 +99,11 @@ h3{font-size:13px;font-weight:600;margin:14px 0 8px;color:var(--muted);text-tran
 <h2>活動量 <span class="badge badge-snap">【結果】</span> 6/1–6/27（確定）vs 前月MTD(5/1–5/27)</h2>
 <div class="kpi-grid">
   <div class="kpi"><div class="label"><span class="badge badge-snap">【結果】</span> 予約</div><div class="value">1040</div><div class="chg"><span class="down">▼ 4.4%</span></div><div class="sub">前月MTD 1088件</div></div>
-  <div class="kpi"><div class="label"><span class="badge badge-snap">【結果】</span> 実施</div><div class="value">705</div><div class="chg"><span class="down">▼ 11.2%</span></div><div class="sub">前月MTD 794件</div><div class="sub" style="margin-top:6px;"><span class="badge badge-pred">【予定日】</span>実施率 <b style="color:var(--down)">67.8%</b> <span style="font-size:11px;color:var(--muted)">(前月 72.7%)</span></div></div>
-  <div class="kpi"><div class="label"><span class="badge badge-snap">【結果】</span> 成約</div><div class="value">208</div><div class="chg"><span class="down">▼ 5.5%</span></div><div class="sub">前月MTD 220件</div><div class="sub" style="margin-top:6px;"><span class="badge badge-pred">【予定日】</span>成約率 <b style="color:var(--down)">22.7%</b> <span style="font-size:11px;color:var(--muted)">(前月 28.7%)</span></div></div>
-  <div class="kpi"><div class="label"><span class="badge badge-snap">【結果】</span> キャンセル</div><div class="value">359</div><div class="chg"><span class="up">▲ +8.1%</span></div><div class="sub">前月MTD 332件</div></div>
+  <div class="kpi"><div class="label"><span class="badge badge-snap">【結果】</span> 実施</div><div class="value">705</div><div class="chg"><span class="down">▼ 11.2%</span></div><div class="sub">前月MTD 794件</div><div class="sub" style="margin-top:8px;"><span class="badge badge-pred">【予定日】</span>実施率 <b style="color:var(--down)">67.8%</b> <span style="font-size:11px;color:var(--muted)">前月 72.7% (▼ 4.9pt)</span></div></div>
+  <div class="kpi"><div class="label"><span class="badge badge-snap">【結果】</span> 成約</div><div class="value">208</div><div class="chg"><span class="down">▼ 5.5%</span></div><div class="sub">前月MTD 220件</div><div class="sub" style="margin-top:8px;"><span class="badge badge-pred">【予定日】</span>成約率 <b style="color:var(--down)">22.7%</b> <span style="font-size:11px;color:var(--muted)">前月 28.7% (▼ 6.0pt)</span></div></div>
+  <div class="kpi"><div class="label"><span class="badge badge-snap">【結果】</span> キャンセル</div><div class="value">359</div><div class="chg"><span class="down">▼ +8.1%</span></div><div class="sub">前月MTD 332件</div></div>
+  <div class="kpi"><div class="label"><span class="badge badge-pred">【予定日】</span> 実施LT</div><div class="value" style="font-size:26px;">4.2<span style="font-size:14px;font-weight:400;color:var(--muted)"> 日</span></div><div class="chg"><span class="up">▲ 短縮 0.3日</span></div><div class="sub">前月MTD 4.5日（予約→実施の平均日数）</div></div>
+  <div class="kpi"><div class="label"><span class="badge badge-pred">【予定日】</span> 成約LT</div><div class="value" style="font-size:26px;">3.0<span style="font-size:14px;font-weight:400;color:var(--muted)"> 日</span></div><div class="chg"><span class="warn">⚠️ 暫定（下記注記）</span></div><div class="sub">前月MTD 6.4日（実施→成約の平均日数）</div></div>
 </div>
 
 <h2>ファネル（月次）</h2>
@@ -192,6 +194,54 @@ h3{font-size:13px;font-weight:600;margin:14px 0 8px;color:var(--muted);text-tran
 </tbody>
 </table>
 <p style="font-size:11px;color:var(--muted);margin-top:12px;">※ 率はすべて予定日ベース(predCohort)。保留3件が解消されると微変動（暫定）。</p>
+</div>
+
+<h2>リードタイム分析 <span class="badge badge-pred">【予定日】</span></h2>
+<div class="note" style="border-color:var(--snap);">
+  <b>📌 成約LT 3.0日（前月 6.4日）は「LT遅れバイアス」に注意。</b><br>
+  今月実施した面談のうち、成約まで時間がかかるケースはまだ「成約待ち」として未計上です。現時点では即決した案件のLTしか見えておらず、平均が短く出ています。成約率（22.7%）の低下も同じ理由で実態より悪く見えている可能性があります。月末〜来月初頭に再確認してください。
+</div>
+<div class="card" style="margin-bottom:14px;">
+<table class="pj-table">
+<thead><tr>
+  <th>プロジェクト</th>
+  <th style="text-align:right">実施数</th>
+  <th style="text-align:right">実施LT（日）</th>
+  <th style="text-align:right">成約数</th>
+  <th style="text-align:right">成約LT（日）</th>
+</tr></thead>
+<tbody>
+  <tr><td>You Voice Academy</td><td>172</td><td>3.9</td><td>37</td><td>4.1</td></tr>
+  <tr><td>ARTISTORY LABS</td><td>159</td><td>3.8</td><td>34</td><td>3.1</td></tr>
+  <tr><td>Digital Creators Academy</td><td>110</td><td>4.0</td><td>22</td><td>2.7</td></tr>
+  <tr><td>Graphic Artist Guild</td><td>57</td><td>5.1</td><td>17</td><td class="good">0.5</td></tr>
+  <tr><td>ライバーマネジメントスクール</td><td>35</td><td>3.7</td><td>4</td><td class="warn" style="color:var(--warn)">9.0</td></tr>
+  <tr><td>Coオンラインプロモーション</td><td>33</td><td>4.8</td><td>9</td><td class="good">0.0</td></tr>
+  <tr><td>ポケットアニメマスタークラス</td><td>33</td><td>3.4</td><td>15</td><td>2.6</td></tr>
+  <tr><td>Neo Snack Academy</td><td>27</td><td>2.5</td><td>3</td><td>4.0</td></tr>
+  <tr><td>ショート動画ブートキャンプ</td><td>17</td><td>5.1</td><td>7</td><td>2.3</td></tr>
+  <tr><td>メイクアップバストスクール</td><td>17</td><td>3.3</td><td>7</td><td>4.4</td></tr>
+  <tr><td>ひとり広報アカデミー</td><td>15</td><td class="bad">8.5</td><td>2</td><td>3.0</td></tr>
+  <tr><td>ミニフランチャイズ本部構築プログラム</td><td>11</td><td class="bad">7.0</td><td>1</td><td class="warn" style="color:var(--warn)">21.0</td></tr>
+  <tr><td>M.F.U</td><td>9</td><td>5.2</td><td>1</td><td class="good">0.0</td></tr>
+  <tr><td>サイエンスセールスカレッジ</td><td>6</td><td class="bad">14.8</td><td>1</td><td>2.0</td></tr>
+  <tr class="inactive"><td>卵丸フランチャイズ</td><td>2</td><td>6.0</td><td>0</td><td>—</td></tr>
+  <tr class="inactive"><td>Vintage Buyer College</td><td>1</td><td>8.0</td><td>0</td><td>—</td></tr>
+  <tr class="inactive"><td>ふるさとプロテュース実践塾</td><td>1</td><td>2.0</td><td>0</td><td>—</td></tr>
+</tbody>
+</table>
+<p style="font-size:11px;color:var(--muted);margin-top:8px;">
+  実施LT = 予約日→実施日の平均日数（短いほど即日・緊急枠が多い）。
+  成約LT = 実施日→成約日の平均日数（短いほど即決、長いほど検討期間が長い）。
+  <span class="bad">赤</span>=8日超（要確認）／ <span class="good">緑</span>=当日〜翌日即決。
+</p>
+</div>
+
+<div class="summary-box" style="margin-bottom:20px;">
+  <p>🔍 <b>LT観点での注目ポイント（3点）</b></p>
+  <p>① <b>サイエンスセールスカレッジ 実施LT 14.8日</b> — 予約から実施まで2週間超。リマインドが届いていないか、日程変更が繰り返されている可能性。件数は少ないが改善余地大。<span style="font-size:11px;color:var(--muted)">根拠：【予定日】6/1–6/27</span></p>
+  <p>② <b>ミニフランチャイズ 成約LT 21.0日</b> — 実施から成約まで3週間。検討期間が長い商材特性か、クロージングのフォローが抜けている可能性。成約数1件のためサンプル少数に注意。<span style="font-size:11px;color:var(--muted)">根拠：【予定日】6/1–6/27</span></p>
+  <p>③ <b>Graphic Artist Guild・Coオンラインプロモーション 成約LT 0〜0.5日</b> — 面談当日〜翌日に即決。高い成約率（29〜28%）と合わせて、クロージング設計の優良事例として他PJに横展開できる可能性。<span style="font-size:11px;color:var(--muted)">根拠：【予定日】6/1–6/27</span></p>
 </div>
 
 <h2>週次トレンド</h2>
